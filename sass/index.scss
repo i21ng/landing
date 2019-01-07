@@ -1,0 +1,66 @@
+@import 'styles';
+
+
+.main-text{
+    color: $color-secundario !important;
+}
+
+.nav-link:hover{
+    color: $color-secundario !important;
+}
+
+.boton{
+    background-color: $color-secundario;
+    color: $blanco;
+}
+
+.boton:hover{
+    background-color: #990000; 
+    color: $blanco;
+}
+
+.bandas{
+    border: none;
+}
+
+#header{
+    background-color: $color-principal !important;
+}
+
+#header img{
+    width: 125px;
+}
+
+#intro .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+    filter: grayscale(80%);
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: $blanco;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+
+#boletos{
+    background-color: $color-principal;
+    color: $blanco;
+}
+
+#boletos img{
+    max-width: 100%;
+}
